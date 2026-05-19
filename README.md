@@ -95,8 +95,10 @@ The vacuum pads are constructed from precision-milled, partially hollowed wood p
 | Mechanical Footwear | Integrated Hockey Pad Harnesses & Foot Straps | Shifts primary vertical load bearing to the lower muscle groups |
 
 <p align="center">
-<img width="1000" alt="image" src="https://github.com/user-attachments/assets/245cce53-bb9a-4866-85ff-58a84818fe8b" />
+<img width="1378" height="986" alt="ClimbingSuitWiringDiagram" src="https://github.com/user-attachments/assets/0e5f03dd-c619-4739-a471-513085bc9557" />
 </p>
+
+
 
 ---
 
