@@ -5,18 +5,8 @@ This project features a fully custom, vacuum-powered, wearable system designed f
 
 ## Project Overview
 
-<table>
-  <tr>
-    <td align="center" valign="top">
-      <img width="350" src="https://github.com/user-attachments/assets/f7e0c13f-399c-461b-8a2c-9a949f581fa2" alt="System Diagram">
-    </td>
-    <td align="center" valign="top">
-      <br><br><br>
-      <img width="450" alt="3dFile" src="https://github.com/user-attachments/assets/fe27d63d-b476-471a-a850-adea5ee02db3" />
-    </td>
-  </tr>
-</table>
-
+[![Watch the video](https://youtube.com)]([https://youtube.com](https://www.youtube.com/watch?v=eWJluZnBhK0))
+[![Watch the video](https://youtube.com)]([https://youtube.com](https://www.youtube.com/watch?v=LduNefReZHM))
 ### Design Evolution & Locomotion Model
 
 This system was developed to solve the inherent safety and stability limitations discovered during initial structural testing of wearable pneumatic adhesion frameworks. 
