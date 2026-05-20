@@ -185,30 +185,4 @@ The vacuum pads were constructed from milled and partially hollowed wood planks.
  SHORTENED TEST VIDEO
 </p>
 
----
 
-## Installation & Setup
-
-### 1. Hardware Firmware Flash
-* Open the source code found within `/Firmware` inside the Arduino IDE or your preferred editor.
-* Flash the logic sketch to your target Arduino microchip.
-* Open the Serial Monitor to verify baseline telemetry polling from the four analog pressure inputs.
-
-### 2. Mechanical Calibration
-* Power down the system and check that all normally-closed solenoids seal tightly without manual power.
-* Ensure all quick-connectors are locked into place along the shirt routing clips.
-* Apply power to the main 12V rails via the primary forearm toggles; monitor the status LEDs to ensure they boot to **Red** in open-air conditions.
-* Press each pad against a flat test surface; verify that the indicators transition cleanly to **Green** as internal pressure passes the $-9\text{ PSI}$ operational floor.
-
----
-
-## Media & Demonstration Logs
-
-### Build Timelapse
-*Documentation tracing the 2.5-year prototyping evolution, backpack layout creation, and structural pad fabrication phases.*
-
-### Shortened Test Video
-*A concise clip focusing on the system's active cross-crawl locomotion mechanism during successful vertical deployment (August 2024).*
-
-### Full Test Video
-*Uncut field-test records illustrating multi-point stability checks, automated LED status switching, and systematic detachment runs.*
