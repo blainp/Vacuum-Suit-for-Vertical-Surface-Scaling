@@ -20,8 +20,8 @@ This project features a fully custom, vacuum-powered, wearable system designed f
 The first iteration of this project relied on two independent all-in-one vacuum pads (one for each hand) paired with manual foot loops. This configuration created an absolute single point of failure where a sudden pressure loss on one pad caused the immediate detachment of the whole system. Additionally, this iteration required an unnatural and highly exhausting simultaneous hand-and-foot advance on a single side, as a user had to lift a pad and foot together.
 
 <p align="center">
-<img height="450" alt="image" src="https://github.com/user-attachments/assets/deb7f468-12f8-4b31-bcef-91a5b945b86f" />
-<img height="450" alt="image" src="https://github.com/user-attachments/assets/483c195e-9417-4fa7-9899-63320096bbad" />
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/deb7f468-12f8-4b31-bcef-91a5b945b86f" />
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/483c195e-9417-4fa7-9899-63320096bbad" />
 </p>
 
 
