@@ -3,19 +3,17 @@ This project features a fully custom, vacuum-powered, wearable system designed f
 
 ---
 
-## Project Overview
-
-<div align="center">
+<p align="center">
   <a href="https://www.youtube.com/watch?v=eWJluZnBhK0">
-    <img src="https://img.youtube.com/vi/eWJluZnBhK0/maxresdefault.jpg" alt="Watch the full test video" style="width:100%; max-width:600px;">
+    <img src="https://github.com/user-attachments/assets/a2f6d8ae-4f06-4bfa-942c-a9f9f2d7124c" width="800" />  
   </a>
-</div>
+  <br>
+  FULL TEST VIDEO
+</p>
 
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=LduNefReZHM">
-    <img src="https://img.youtube.com/vi/LduNefReZHM/maxresdefault.jpg" alt="Watch the build timelapse" style="width:100%; max-width:600px;">
-  </a>
-</div>
+
+
+---
 
 ## Design Evolution 
 
@@ -169,6 +167,25 @@ The vacuum pads were constructed from milled and partially hollowed wood planks.
 | Pressure Sensors | Electronic Vacuum Analogs | Reads and outputs current pad-to-wall pressure states |
 | Voltage Regulator | 12V-to-5V Step-Down Buck Converter | Drops main battery voltage to supply clean logic power to the Arduino |
 | Mechanical Footwear | Integrated Hockey Pad Harnesses & Foot Straps | Shifts primary vertical load bearing to the lower muscle groups |
+
+---
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=LduNefReZHM">
+    <img width="600" alt="TimelapsePic" src="https://github.com/user-attachments/assets/0a8d7160-966c-421d-9c1b-d69f7c94c3f8" />
+  </a>
+  <br>
+  BUILD TIMELAPSE
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=KHBrrZLr4q0">
+   <img width="600" alt="ShortenedPic" src="https://github.com/user-attachments/assets/d98de2ad-8e97-44f6-b6da-eb869c73b86d" />
+  </a>
+  <br>
+ SHORTENED TEST VIDEO
+</p>
+
+---
 
 ## Installation & Setup
 
