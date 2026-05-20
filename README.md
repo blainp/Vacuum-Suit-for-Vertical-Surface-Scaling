@@ -21,7 +21,22 @@ This project features a fully custom, vacuum-powered, wearable system designed f
 
 The first iteration of this project relied on two independent all-in-one vacuum pads (one for each hand) paired with manual foot loops. This configuration created an absolute single point of failure where a sudden pressure loss on one pad caused the immediate detachment of the whole system. Additionally, this iteration required an unnatural and highly exhausting simultaneous hand-and-foot advance on a single side, as a user had to lift a pad and foot together.
 
+<p align="center">
+<img height="450" alt="image" src="https://github.com/user-attachments/assets/deb7f468-12f8-4b31-bcef-91a5b945b86f" />
+<img height="450" alt="image" src="https://github.com/user-attachments/assets/483c195e-9417-4fa7-9899-63320096bbad" />
+</p>
+
+
+
+
+
 **By implementing a four-point contact array**, the second iteration migrates all primary electronics to an ergonomic backpack frame and redistributes suction force across four distinct mechanical pads, one for each appendage. This architectural pivot expands the total surface adhesion area, integrates two additional vacuum motors, increasing the overal suction force, and provides systematic redundancy. 
+
+<p align="center">
+
+</p>
+
+
 
 **Natural Movement Gait** To improve vertical movement fluidity the pneumatic lines were cross-linked via electronic solenoids. Control buttons built directly into the arm-pad handgrips trigger the release of a specific arm pad *alongside* the diagonally opposite leg pad (e.g., releasing the left arm automatically releases the right leg). This allows the climber to safely alternate limbs while the remaining cross-diagonal pairs maintain continuous adhesion to the wall surface. Essentially, the improved climbing style of the second iteration resembles that of Spiderman, switching between pairs of contralatteral appendages, in contrast to the first iteration, which had the user shifting their entire body left and right to climb.
 
@@ -29,11 +44,21 @@ The first iteration of this project relied on two independent all-in-one vacuum 
 
 The suit's power system relies on two 5000mAh high-amperage 12V LiPo batteries securely mounted at the top of the backpack frame. These cells feed a parallel power rail driving four high-output 12V -84KPA vacuum pump motors, with each motor dedicated to isolating a single suction channel.
 
+<p align="center">
+<img width="800" alt="ClimbingSuitWiringDiagram" src="https://github.com/user-attachments/assets/0e5f03dd-c619-4739-a471-513085bc9557" />
+</p>
+
 **Pneumatic Control Loop:** Positioned inline between each vacuum pump and its corresponding pad is an electronic vacuum pressure sensor and a normally-closed solenoid valve. The analog sensor array continuously monitors the internal atmosphere of the pads, feeding telemetry data back to a central Arduino microcontroller which is powered by a 12V to 5V XL6009 buck converter.
 
 **Real-Time Safety Interface:** The microcontroller manages an active visual feedback safety loop using high-brightness LED clusters mounted directly onto the user's forward arm brackets:
 - **Red LED (Insufficient Adhesion):** Indicated if vacuum pressure drops below the critical holding threshold ($\le -9\text{ PSI}$).
 - **Green LED (Secure Adhesion):** Indicated only when *both* interdependent diagonal appendages (e.g., left arm and right leg) cross the safe holding threshold ($> -9\text{ PSI}$), providing unambiguous visual confirmation that the opposite diagonal pair can be safely detached and advanced.
+
+ 
+
+<p align="center">
+<img width="1236" height="1032" alt="image" src="https://github.com/user-attachments/assets/63893b26-d502-406d-bf77-20e505984326" />
+</p>
 
 ## Safety Threshold Value Calculation
 The vacuum cutoff safety threshold of **−9 psi (≈ −62 kPa)** was derived from required load support conditions under conservative friction and safety assumptions.
@@ -85,6 +110,12 @@ As the selected vacuum pump motors were rated for -85kPa, this provided sufficie
 ### Mechanical & Wearable Construction
 
 The vacuum pads were constructed from milled and partially hollowed wood planks. The sealing interface utilizes a dual layer system, consisting of a standard rubber door gasket backed by an inner ring of high-density insulation foam. This entire seal assembly was then injected and encapsulated with silicone to construct airtight seals against flat surfaces while maintaining a high coefficient of static friction.
+
+<p align="center">
+<img width="689" height="528" alt="tocrop" src="https://github.com/user-attachments/assets/c368565b-4fd9-4188-afcc-bd5474aa620c" />
+</p>
+
+
 
 **Ergonomic Integration:** 
 - **Upper Body:** Arm pads are hard-mounted to heavy-duty wrist guards for stable forearm reinforcement, terminating in rugged metal hand grips housing the manual solenoid release buttons.
@@ -138,10 +169,6 @@ The vacuum pads were constructed from milled and partially hollowed wood planks.
 | Pressure Sensors | Electronic Vacuum Analogs | Reads and outputs current pad-to-wall pressure states |
 | Voltage Regulator | 12V-to-5V Step-Down Buck Converter | Drops main battery voltage to supply clean logic power to the Arduino |
 | Mechanical Footwear | Integrated Hockey Pad Harnesses & Foot Straps | Shifts primary vertical load bearing to the lower muscle groups |
-
-<p align="center">
-<img width="1378" height="986" alt="ClimbingSuitWiringDiagram" src="https://github.com/user-attachments/assets/0e5f03dd-c619-4739-a471-513085bc9557" />
-</p>
 
 ## Installation & Setup
 
