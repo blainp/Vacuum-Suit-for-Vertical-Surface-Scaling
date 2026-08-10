@@ -27,7 +27,7 @@ The first iteration of this project relied on two independent all-in-one vacuum 
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=qCL62ihRkEw" target="_blank">
-    <img width="800" height="400" alt="New Project (1)" src="https://github.com/user-attachments/assets/f503bc1f-6135-4adc-994a-65c968ee9139" />
+    <img width="850" height="400" alt="New Project (1)" src="https://github.com/user-attachments/assets/f503bc1f-6135-4adc-994a-65c968ee9139" />
   </a>
   <br>
   CLIMBERS VERSION 1 TEST VIDEO
