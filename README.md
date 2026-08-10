@@ -4,7 +4,7 @@ This project features a fully custom, vacuum-powered, wearable system designed f
 ---
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=eWJluZnBhK0">
+  <a href="https://www.youtube.com/watch?v=eWJluZnBhK0" target="_blank">
     <img src="https://github.com/user-attachments/assets/a2f6d8ae-4f06-4bfa-942c-a9f9f2d7124c" width="800" />  
   </a>
   <br>
@@ -25,7 +25,13 @@ The first iteration of this project relied on two independent all-in-one vacuum 
 </p>
 
 
-
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=qCL62ihRkEw" target="_blank">
+    <img width="800" height="400" alt="New Project" src="https://github.com/user-attachments/assets/13f2c506-901e-442e-8013-9f79204da0a2" />
+  </a>
+  <br>
+  CLIMBERS VERSION 1 TEST VIDEO
+</p>
 
 
 **By implementing a four-point contact array**, the second iteration migrates all primary electronics to an ergonomic backpack frame and redistributes suction force across four distinct mechanical pads, one for each appendage. This architectural pivot expands the total surface adhesion area, integrates two additional vacuum motors, increasing the overal suction force, and provides systematic redundancy. 
@@ -170,7 +176,7 @@ The vacuum pads were constructed from milled and partially hollowed wood planks.
 
 ---
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=LduNefReZHM">
+  <a href="https://www.youtube.com/watch?v=LduNefReZHM" target="_blank">
     <img width="600" alt="TimelapsePic" src="https://github.com/user-attachments/assets/0a8d7160-966c-421d-9c1b-d69f7c94c3f8" />
   </a>
   <br>
@@ -178,7 +184,7 @@ The vacuum pads were constructed from milled and partially hollowed wood planks.
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=KHBrrZLr4q0">
+  <a href="https://www.youtube.com/watch?v=KHBrrZLr4q0" target="_blank">
    <img width="600" alt="ShortenedPic" src="https://github.com/user-attachments/assets/d98de2ad-8e97-44f6-b6da-eb869c73b86d" />
   </a>
   <br>
