@@ -1,4 +1,4 @@
-# Vacuum Pump Wall Climbing Suit
+# Vacuum Pump Wall Climbing Suit For Vertical Surface Scaling
 This project features a fully custom, vacuum-powered, wearable system designed for scaling flat vertical walls utilizing a centralized, backpack-mounted dual Li-Po battery architecture to drive a quad-appendage vacuum pad array. By integrating cross-linked electronic solenoid valves, the suit provides a reliable and redundant matrix where 2 contralateral appendages are always connected to the wall, enabling a natural and synchronized climbing gait. Additionally, an Arduino-based real-time pressure monitoring and seal integrity feedback loop was integrated to alert the user to incomplete or failed vacuum seals, preventing false assumptions of secure attachment and reducing the risk of injury.
 
 ---
@@ -27,7 +27,7 @@ The first iteration of this project relied on two independent all-in-one vacuum 
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=qCL62ihRkEw" target="_blank">
-    <img width="800" height="400" alt="New Project" src="https://github.com/user-attachments/assets/13f2c506-901e-442e-8013-9f79204da0a2" />
+    <img width="800" height="400" alt="New Project (1)" src="https://github.com/user-attachments/assets/f503bc1f-6135-4adc-994a-65c968ee9139" />
   </a>
   <br>
   CLIMBERS VERSION 1 TEST VIDEO
